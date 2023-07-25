@@ -10,7 +10,8 @@
 
 ##                                                  Features
 
-- Automaticly gets user's location 
+- Automaticly gets user's location
+- may locate you to weather website which is created by my friend
 - Provides current weather condition 
 - Hourly information about the weather
 - 7 days weather forecast
