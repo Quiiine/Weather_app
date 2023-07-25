@@ -1,16 +1,33 @@
-# sky_status
+# Sky_Status
 
-A new Flutter project.
+<p>It is a cross platformed weather app for android and apple called Sky_Status! which was created using flutter</p>
 
-## Getting Started
+# Preview
 
-This project is a starting point for a Flutter application.
+<p align="center">
+<img src="assets/Screenshot 2023-07-25 at 04.17.40.png" height="480px"/> <img src="assets/Screenshot 2023-07-25 at 04.18.27.png" height="480px" /> <img src="assets/Screenshot 2023-07-25 at 04.18.54.png" height="480px" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+##                                                  Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Automaticly gets user's location
+- may locate you to weather website which is created by my friend
+- Provides current weather condition 
+- Hourly information about the weather
+- 7 days weather forecast
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+
+1. Get your unique API weather key from any platform that provides it like: <a href="https://openweathermap.org/api/">openweathermap.com</a>.
+2. Download the source code from this repository
+3. open it in your android studio or whatever you have
+4. make sure you have flutter properly installed
+6. Install all packages by typing in your terminal, but make sure you in the right folder
+   ```sh
+   flutter pub get
+   ```
+7. Navigate to **lib/screen2(0)/api/api_key.dart** and paste your API key to const variable
+   ```dart
+   const apiKey ='';
+   ```
+8. Run the App
